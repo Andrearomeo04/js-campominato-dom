@@ -4,6 +4,13 @@ function new_square () {
     return currentelement
 }
 
+function generatebombs (numbombs, max, min) {
+    const bombs = []
+    while (bombs.length < numbombs) {
+        const bomb = Math.floor(Math.random() * max + min)
+    }
+}
+
 const btn = document.getElementById('start')
 
 const grid = document.getElementById('grid')

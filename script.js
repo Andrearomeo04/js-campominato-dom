@@ -21,19 +21,20 @@ const btn = document.getElementById('start')
 const grid = document.getElementById('grid')
 
 btn.addEventListener('click', function () {
+    new_bombs = generatebombs(16, 100, 1)
     let square_count = 0
     for (let i = 0; i < 100; i++) {
         let currentsquare = new_square()
 
         currentsquare.addEventListener('click', function () {
-            this.classList.add('clicked')
-            console.log('hai selezionato la casella numero', i + 1, )
 
-            if (bombs.includes(i)) {
+            if (bombs.includes(i + 1)) {
                 this.classList.add('bomb')
                 console.log(`Game Over! hai cliccato su una casella bomba! il tuo punteggio è di ${square_count}`)
-            } else if (this.classList.contains('clicked')) {
+            } else if (!this.classList.contains('clicked')) {
+                this.classList.add('clicked')
                 square_count++
+                console.log('hai selezionato la casella numero', i + 1,)
             }
         })
 

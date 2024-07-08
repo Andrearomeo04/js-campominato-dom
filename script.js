@@ -37,6 +37,8 @@ btn.addEventListener('click', function () {
                  this.classList.add('clicked')
                  square_count++
                  console.log('hai selezionato la casella numero', i + 1)
+             } else if (square_count === (100 - bombs.length)) {
+                console.log(`Complimenti, hai vinto! sei riuscito a sfuggire a tutte le bombe! il tuo punteggio è di ${square_count}`)
              }
         })
 

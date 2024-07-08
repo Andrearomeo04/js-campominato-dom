@@ -29,12 +29,12 @@ Al termine della partita il software deve comunicare il punteggio, cioè il nume
 
 soluzione
 
-1.creo una funzione "generatebombs"
-2.a questa funzione aggiungo come parametri numbombs, max, min
-2.creo un array
-2.dentro questa funzione creo un ciclo while dentro cui andrò a generare un numero casuale da 1 a 100 tramite il metodo Mathfloor e utilizzando i parametri 
-3.applico una condizione per verificare se il numero generato fa già parte dell'array, se così non dovesse essere allora il numero verrà pushato fino ad avere un array di 16 numeri
-4.dentro l'evento click del quadrato, creo una variabile contatore, che mi andrà a sommare man mano le celle selezionate, che determineranno poi il mio punteggio finale
+1.creo una funzione "generatebombs" x
+2.a questa funzione aggiungo come parametri numbombs, max, min x
+2.creo un array x
+2.dentro questa funzione creo un ciclo while dentro cui andrò a generare un numero casuale da 1 a 100 tramite il metodo Mathfloor e utilizzando i parametri x
+3.applico una condizione per verificare se il numero generato fa già parte dell'array, se così non dovesse essere allora il numero verrà pushato fino ad avere un array di 16 numeri x
+4.dentro l'evento click del quadrato, creo una variabile contatore, che mi andrà a sommare man mano le celle selezionate, che determineranno poi il mio punteggio finale x
 5.dentro il for all'interno dell'evento click del quadrato, creo una condizione in cui verifico se l'array contenente i numeri delle bombe include lo stesso numero cliccato dall'utente.
 6.se è vero, allora mostrerò un messaggio di gameover:"Game Over! hai cliccato su una casella bomba! il tuo punteggio è di (numero quadrati cliccati)
 7.altrimenti se il quadrato contiene la classe "clicked" allora aumento il contatore di unoù

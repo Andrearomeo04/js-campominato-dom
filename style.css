@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    background-color: paleturquoise;
+    margin-bottom: 25px;
+}
+
+body {
+    background-color: bisque;
+}
+
+#start {
+    font-size: 30px;
+}
+
+#grid {
+    max-width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.square {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border: 1px solid white; 
+    width: calc(100% / 10);
+}
+
+.clicked {
+    background-color: skyblue;
+}

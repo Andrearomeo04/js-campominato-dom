@@ -41,3 +41,7 @@ body {
 .clicked {
     background-color: skyblue;
 }
+
+.bomb {
+    background-color: red;
+}

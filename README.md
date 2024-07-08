@@ -35,8 +35,8 @@ soluzione
 2.dentro questa funzione creo un ciclo while dentro cui andrò a generare un numero casuale da 1 a 100 tramite il metodo Mathfloor e utilizzando i parametri x
 3.applico una condizione per verificare se il numero generato fa già parte dell'array, se così non dovesse essere allora il numero verrà pushato fino ad avere un array di 16 numeri x
 4.dentro l'evento click del quadrato, creo una variabile contatore, che mi andrà a sommare man mano le celle selezionate, che determineranno poi il mio punteggio finale x
-5.dentro il for all'interno dell'evento click del quadrato, creo una condizione in cui verifico se l'array contenente i numeri delle bombe include lo stesso numero cliccato dall'utente.
-6.se è vero, allora mostrerò un messaggio di gameover:"Game Over! hai cliccato su una casella bomba! il tuo punteggio è di (numero quadrati cliccati)
-7.altrimenti se il quadrato contiene la classe "clicked" allora aumento il contatore di unoù
+5.dentro il for all'interno dell'evento click del quadrato, creo una condizione in cui verifico se l'array contenente i numeri delle bombe include lo stesso numero cliccato dall'utente. x
+6.se è vero, allora mostrerò un messaggio di gameover:"Game Over! hai cliccato su una casella bomba! il tuo punteggio è di (numero quadrati cliccati) x
+7.altrimenti se il quadrato contiene la classe "clicked" allora aumento il contatore di uno
 8.altrimenti se il contatore è uguale a 100 - il numero di bombe presenti (16), allora mostrerò un messaggio di vittoria:"Complimenti, hai vinto! sei riuscito a sfuggire a tutte le bombe! il tuo punteggio è di (numero quadrati cliccati)
 

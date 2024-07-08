@@ -12,7 +12,9 @@ function generatebombs (numbombs, max, min) {
             bombs.push(bomb)
         }
     }
+    return bombs
 }
+const bombs = []
 
 const btn = document.getElementById('start')
 
@@ -30,6 +32,8 @@ btn.addEventListener('click', function () {
             if (bombs.includes(i)) {
                 this.classList.add('bomb')
                 console.log(`Game Over! hai cliccato su una casella bomba! il tuo punteggio è di ${square_count}`)
+            } else if (this.classList.contains('clicked')) {
+                square_count++
             }
         })
 
